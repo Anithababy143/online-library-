@@ -18,13 +18,16 @@ Sends automated alerts for due dates and overdue returns
 The system ensures fast, accurate, and user-friendly library management.
 
 ---
-🛠 Technologies / Components Used
-Component / Technology	Purpose
-HTML, CSS, JavaScript	Frontend design and user interface
-PHP / Python / Node.js	Backend application logic
-MySQL / PostgreSQL	Database to store book & user details
-XAMPP / Localhost Server	Hosting and local development environment
-Web Browser	Accessing the application
+## 🛠 Technologies / Components Used
+
+| Component / Technology   | Purpose                                         |
+|--------------------------|-------------------------------------------------|
+| HTML, CSS, JavaScript    | Frontend design and user interface              |
+| PHP / Python / Node.js   | Backend application logic                       |
+| MySQL / PostgreSQL       | Database to store book & user details           |
+| XAMPP / Localhost Server | Hosting and local development environment       |
+| Web Browser              | Accessing the application                      |
+
 
 # 📖Features
 
