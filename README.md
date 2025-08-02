@@ -6,6 +6,7 @@ A web-based application that manages library operations such as book records, us
 
 # Abstract
 Traditional libraries face challenges in maintaining records manually, which leads to inefficiencies, delays, and errors in book transactions.This project proposes an Online Library Management System that:
+
 Maintains a centralized database for books and users
      
 Provides an Admin dashboard for managing library operations
