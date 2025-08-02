@@ -44,6 +44,24 @@ The system ensures fast, accurate, and user-friendly library management.
   Generate admin reports
   
 ---
+# System Design
 
-# System Diagram
-<img width="800" height="500" alt="Library System Diagram" src="https://github.com/user-attachments/assets/YOUR-DIAGRAM-ID-HERE" /> 
+┌───────────────────┐
+      │      User         │
+      └───────┬───────────┘
+                │  Login / Browse
+                ▼
+        ┌───────────────────┐
+        │  User Interface   │ (HTML, CSS, JS)
+        └───────┬───────────┘
+                │  Request / Response
+                ▼
+        ┌───────────────────┐
+        │   Backend Logic   │ (PHP / Python / Node.js)
+        └───────┬───────────┘
+                │  Query / Update
+                ▼
+        ┌───────────────────┐
+        │     Database      │ (MySQL / PostgreSQL)
+        └───────────────────┘
+
