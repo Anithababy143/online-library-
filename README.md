@@ -45,23 +45,21 @@ The system ensures fast, accurate, and user-friendly library management.
   
 ---
 # System Design
-
 ┌───────────────────┐
-      │      User         │
-      └───────┬───────────┘
-                │  Login / Browse
-                ▼
+│      User         │
+└───────┬───────────┘
+        │ Login / Request Books
+        ▼
         ┌───────────────────┐
-        │  User Interface   │ (HTML, CSS, JS)
+        │  Web Interface    │ (HTML, CSS, JS)
         └───────┬───────────┘
-                │  Request / Response
+                │ Sends request
                 ▼
         ┌───────────────────┐
-        │   Backend Logic   │ (PHP / Python / Node.js)
+        │  Application      │ (PHP / Python / Node.js)
         └───────┬───────────┘
-                │  Query / Update
+                │ Queries database
                 ▼
         ┌───────────────────┐
-        │     Database      │ (MySQL / PostgreSQL)
+        │   Database        │ (MySQL)
         └───────────────────┘
-
